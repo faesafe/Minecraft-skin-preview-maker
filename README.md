@@ -1,0 +1,4 @@
+## What is this?
+This is a script that creates previews of Minecraft skins from Minecraft skin files. It works by copying each limb/element from the skin tile to a new image, pasting them in proper, hand-calculated locations. It differentiates between slim and normal skin versions by sampling hand-picked spots, which are empty in slim skins, but occupied in normal skins. 
+It uses a predefined input folder structure to output both skin files (a plain copy) and the thumbnails. The output is automatically uploaded to a Firebase bucket. Additionally, a JSON file is created, but I don't remember what it was supposed to be for - that part was my friend's job.
+I probably left a lot of application-specific variables and such, but then again, is anyone going to need to do the exact same thing I did?
